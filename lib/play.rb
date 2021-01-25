@@ -5,7 +5,7 @@
    while counter <= 9
      counter +=1
      turn(board)
-     puts "counter is " + counter
+     #puts "counter is " + counter
    end
  end
 
