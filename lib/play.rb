@@ -50,11 +50,11 @@ end
 def win_state?(board)
   hwin = horizontal_win(board, 0) || horizontal_win(board, 3) || horizontal_win(board, 6)
   vwin = verticle_win(board, 0) || verticle_win(board, 1) ||  verticle_win(board, 2)
-<<<<<<< HEAD
+
   dwin = diagonal_winA(board, 0) || diagonal_winB(board, 2)
-=======
+
   dwin = diagonal_win(board, 0) || diagonal_win(board, 2)
->>>>>>> 6651525177663ab4a1941920d808ac846cb8d867
+
   return hwin || vwin || dwin
 end
 
