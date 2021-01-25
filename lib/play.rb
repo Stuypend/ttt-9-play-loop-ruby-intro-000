@@ -5,6 +5,7 @@
    while counter <= 9
      counter +=1
      turn(board)
+     puts "HELOOWOWOWOWOWO"
      puts counter
    end
  end
